@@ -1,0 +1,56 @@
+\hypertarget{classCalc}{}\doxysection{Класс Calc}
+\label{classCalc}\index{Calc@{Calc}}
+
+
+Класс для вычислений по вектору  
+
+
+
+
+{\ttfamily \#include $<$Calc.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+int16\+\_\+t $\ast$ \mbox{\hyperlink{classCalc_a7d52c0ae8610e018c4d98abd0e23aeaf}{mean}} (std\+::vector$<$ int16\+\_\+t $>$ arr)
+\begin{DoxyCompactList}\small\item\em Конструктор без параметров \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для вычислений по вектору 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classCalc_a7d52c0ae8610e018c4d98abd0e23aeaf}\label{classCalc_a7d52c0ae8610e018c4d98abd0e23aeaf}} 
+\index{Calc@{Calc}!mean@{mean}}
+\index{mean@{mean}!Calc@{Calc}}
+\doxysubsubsection{\texorpdfstring{mean()}{mean()}}
+{\footnotesize\ttfamily int16\+\_\+t$\ast$ Calc\+::mean (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int16\+\_\+t $>$}]{arr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор без параметров 
+
+Вычисляет суммы по вектору 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em arr,вектор,std\+::vector$<$int16\+\_\+t$>$} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+указатель на массив с результатом, int16\+\_\+t $\ast$ 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Исключения}
+{\em std\+::server\+\_\+error} & в случае ошибки, критическая 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{@type = invalid\_argument, what =\textcolor{stringliteral}{"{}Error: Count "{}}}
+\DoxyCodeLine{@details Если идет переполнение вектораю, выводит максимальное возможное если больше, и минимальное возможное если меньше}
+
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Calc.\+h\end{DoxyCompactItemize}

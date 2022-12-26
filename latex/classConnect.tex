@@ -1,0 +1,193 @@
+\hypertarget{classConnect}{}\doxysection{Класс Connect}
+\label{classConnect}\index{Connect@{Connect}}
+
+
+Класс, обеспечивающий работу с сокетами и сетовое взаимодействие  
+
+
+
+
+{\ttfamily \#include $<$Connect.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classConnect_a1dab63e1776070121cc0ac202dd21433}{Connect}} (unsigned int port)
+\begin{DoxyCompactList}\small\item\em Конструктор \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classConnect_ad73af0157721eb495e73372f9a787282}{start\+\_\+listening}} ()
+\begin{DoxyCompactList}\small\item\em Установка сокета в режим ожидания \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classConnect_ae402177f6ec20312439a9e3b6c2a9bee}{new\+\_\+bind}} ()
+\begin{DoxyCompactList}\small\item\em Привязка сокета к адресу \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classConnect_a9510aa925d7bca4960bdd3b781eb879e}{accepting}} ()
+\begin{DoxyCompactList}\small\item\em Приём соединения \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classConnect_a73fe4191736225dc848c74eaaec1b76f}{receiving}} (int sock, void $\ast$buf, int size)
+\begin{DoxyCompactList}\small\item\em Приём данных \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classConnect_af3113fafb85f23c89f3de04937354f30}{sending}} (int sock, void $\ast$buf, int sizeb)
+\begin{DoxyCompactList}\small\item\em Отправка данных \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс, обеспечивающий работу с сокетами и сетовое взаимодействие 
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classConnect_a1dab63e1776070121cc0ac202dd21433}\label{classConnect_a1dab63e1776070121cc0ac202dd21433}} 
+\index{Connect@{Connect}!Connect@{Connect}}
+\index{Connect@{Connect}!Connect@{Connect}}
+\doxysubsubsection{\texorpdfstring{Connect()}{Connect()}}
+{\footnotesize\ttfamily Connect\+::\+Connect (\begin{DoxyParamCaption}\item[{unsigned int}]{port }\end{DoxyParamCaption})}
+
+
+
+Конструктор 
+
+Устанавливает порт, инициализирует основной сокет и структуру sockaddr\+\_\+in 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em port,порт,на} & котором работает сервер, int. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Исключения}
+{\em std\+::server\+\_\+error} & в случае ошибки, критическая 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{type = invalid\_argument, what =\textcolor{stringliteral}{"{}Error: Socket creation "{}}}
+
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classConnect_a9510aa925d7bca4960bdd3b781eb879e}\label{classConnect_a9510aa925d7bca4960bdd3b781eb879e}} 
+\index{Connect@{Connect}!accepting@{accepting}}
+\index{accepting@{accepting}!Connect@{Connect}}
+\doxysubsubsection{\texorpdfstring{accepting()}{accepting()}}
+{\footnotesize\ttfamily int Connect\+::accepting (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Приём соединения 
+
+\begin{DoxyReturn}{Возвращает}
+код сокета, int 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Исключения}
+{\em std\+::server\+\_\+error} & в случае ошибки, штатная 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{type = invalid\_argument, what =\textcolor{stringliteral}{"{}Error: Accepting "{}}}
+
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classConnect_ae402177f6ec20312439a9e3b6c2a9bee}\label{classConnect_ae402177f6ec20312439a9e3b6c2a9bee}} 
+\index{Connect@{Connect}!new\_bind@{new\_bind}}
+\index{new\_bind@{new\_bind}!Connect@{Connect}}
+\doxysubsubsection{\texorpdfstring{new\_bind()}{new\_bind()}}
+{\footnotesize\ttfamily int Connect\+::new\+\_\+bind (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Привязка сокета к адресу 
+
+\begin{DoxyReturn}{Возвращает}
+код сокета, int 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Исключения}
+{\em std\+::server\+\_\+error} & в случае ошибки, критическая 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{type = invalid\_argument, what =\textcolor{stringliteral}{"{}Error: Socket bind "{}}}
+
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classConnect_a73fe4191736225dc848c74eaaec1b76f}\label{classConnect_a73fe4191736225dc848c74eaaec1b76f}} 
+\index{Connect@{Connect}!receiving@{receiving}}
+\index{receiving@{receiving}!Connect@{Connect}}
+\doxysubsubsection{\texorpdfstring{receiving()}{receiving()}}
+{\footnotesize\ttfamily int Connect\+::receiving (\begin{DoxyParamCaption}\item[{int}]{sock,  }\item[{void $\ast$}]{buf,  }\item[{int}]{size }\end{DoxyParamCaption})}
+
+
+
+Приём данных 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em sock,сокет,int} & \\
+\hline
+\mbox{\texttt{ in}}  & {\em buf,буфер} & для данных, void$\ast$ \\
+\hline
+\mbox{\texttt{ in}}  & {\em size,размер} & буфера, int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+количество полученных байт, int 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Исключения}
+{\em std\+::server\+\_\+error} & в случае ошибки, штатная 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{type = invalid\_argument, what =\textcolor{stringliteral}{"{}Error: Receiving "{}}}
+
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classConnect_af3113fafb85f23c89f3de04937354f30}\label{classConnect_af3113fafb85f23c89f3de04937354f30}} 
+\index{Connect@{Connect}!sending@{sending}}
+\index{sending@{sending}!Connect@{Connect}}
+\doxysubsubsection{\texorpdfstring{sending()}{sending()}}
+{\footnotesize\ttfamily void Connect\+::sending (\begin{DoxyParamCaption}\item[{int}]{sock,  }\item[{void $\ast$}]{buf,  }\item[{int}]{sizeb }\end{DoxyParamCaption})}
+
+
+
+Отправка данных 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em sock,сокет,int} & \\
+\hline
+\mbox{\texttt{ in}}  & {\em buf,буфер} & с данными, void$\ast$ \\
+\hline
+\mbox{\texttt{ in}}  & {\em sizeb,количество} & отправляемых байт, int \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Исключения}
+{\em std\+::server\+\_\+error} & в случае ошибки, штатная 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{type = invalid\_argument, what =\textcolor{stringliteral}{"{}Error: Sending "{}}}
+
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classConnect_ad73af0157721eb495e73372f9a787282}\label{classConnect_ad73af0157721eb495e73372f9a787282}} 
+\index{Connect@{Connect}!start\_listening@{start\_listening}}
+\index{start\_listening@{start\_listening}!Connect@{Connect}}
+\doxysubsubsection{\texorpdfstring{start\_listening()}{start\_listening()}}
+{\footnotesize\ttfamily void Connect\+::start\+\_\+listening (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Установка сокета в режим ожидания 
+
+
+\begin{DoxyExceptions}{Исключения}
+{\em std\+::server\+\_\+error} & в случае ошибки, критическая 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{type = invalid\_argument, what =\textcolor{stringliteral}{"{}Error: Listening "{}}}
+
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+Connect.\+h\item 
+Connect.\+cpp\end{DoxyCompactItemize}

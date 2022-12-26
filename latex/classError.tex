@@ -1,0 +1,57 @@
+\hypertarget{classError}{}\doxysection{Класс Error}
+\label{classError}\index{Error@{Error}}
+
+
+Класс для обработки ошибок  
+
+
+
+
+{\ttfamily \#include $<$Error.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classError_aab70ccd606c6d1ab6e1535f312ed86d6}{set\+Logname}} (std\+::string Logname)
+\begin{DoxyCompactList}\small\item\em Конструктор без параметров \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classError_aa7f0f5520abfe83c4b2d04dd0bd0d33b}{write\+\_\+log}} (std\+::string what, bool Critical)
+\begin{DoxyCompactList}\small\item\em Запись ошибки в лог \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для обработки ошибок 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classError_aab70ccd606c6d1ab6e1535f312ed86d6}\label{classError_aab70ccd606c6d1ab6e1535f312ed86d6}} 
+\index{Error@{Error}!setLogname@{setLogname}}
+\index{setLogname@{setLogname}!Error@{Error}}
+\doxysubsubsection{\texorpdfstring{setLogname()}{setLogname()}}
+{\footnotesize\ttfamily void Error\+::set\+Logname (\begin{DoxyParamCaption}\item[{std\+::string}]{Logname }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор без параметров 
+
+Функция, устанавливающая путь к файлу с логом ошибок \mbox{\Hypertarget{classError_aa7f0f5520abfe83c4b2d04dd0bd0d33b}\label{classError_aa7f0f5520abfe83c4b2d04dd0bd0d33b}} 
+\index{Error@{Error}!write\_log@{write\_log}}
+\index{write\_log@{write\_log}!Error@{Error}}
+\doxysubsubsection{\texorpdfstring{write\_log()}{write\_log()}}
+{\footnotesize\ttfamily void Error\+::write\+\_\+log (\begin{DoxyParamCaption}\item[{std\+::string}]{what,  }\item[{bool}]{Critical }\end{DoxyParamCaption})}
+
+
+
+Запись ошибки в лог 
+
+Записывает время, тип и критичность ошибки 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em what,тип} & ошибки, std\+::string \\
+\hline
+\mbox{\texttt{ in}}  & {\em Critical,критичность} & ошибки (Критическая -\/ true, Штатная -\/ false), std\+::string \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+Error.\+h\item 
+Error.\+cpp\end{DoxyCompactItemize}
