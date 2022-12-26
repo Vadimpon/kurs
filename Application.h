@@ -1,3 +1,10 @@
+/*  @file Application.h
+ *  @author Пономарев В.А.
+ *  @version 1.0
+ *  @date 26.12.2022
+ *  @copyright ИБСТ ПГУ
+ */
+
 #include "interface.h"
 #include "Auth.h"
 #include "Calc.h"
