@@ -1,9 +1,3 @@
-/*  @file Auth.h
- *  @author Пономарев В.А.
- *  @version 1.3
- *  @date 26.12.2022
- *  @copyright ИБСТ ПГУ
- */
 
 #pragma once
 #include <map>
