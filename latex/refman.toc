@@ -1,0 +1,50 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {russian}{}
+\contentsline {chapter}{\numberline {1}Иерархический список классов}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Иерархия классов}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Алфавитный указатель классов}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Классы}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Классы}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Класс Auth}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Конструктор(ы)}{5}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Auth()}{5}{subsubsection.3.1.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Методы}{6}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}CompareHashes()}{6}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}GenSALT()}{6}{subsubsection.3.1.2.2}%
+\contentsline {section}{\numberline {3.2}Класс Calc}{7}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Подробное описание}{7}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Методы}{7}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}mean()}{7}{subsubsection.3.2.2.1}%
+\contentsline {section}{\numberline {3.3}Класс Connect}{8}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Подробное описание}{8}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Конструктор(ы)}{8}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Connect()}{8}{subsubsection.3.3.2.1}%
+\contentsline {subsection}{\numberline {3.3.3}Методы}{9}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}accepting()}{9}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}new\_bind()}{9}{subsubsection.3.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3.3}receiving()}{9}{subsubsection.3.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.4}sending()}{10}{subsubsection.3.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.3.5}start\_listening()}{10}{subsubsection.3.3.3.5}%
+\contentsline {section}{\numberline {3.4}Класс Db}{11}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Подробное описание}{11}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Конструктор(ы)}{11}{subsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.1}Db()}{11}{subsubsection.3.4.2.1}%
+\contentsline {subsection}{\numberline {3.4.3}Методы}{12}{subsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.3.1}IDcheck()}{12}{subsubsection.3.4.3.1}%
+\contentsline {section}{\numberline {3.5}Класс Error}{12}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Подробное описание}{13}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Методы}{13}{subsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}setLogname()}{13}{subsubsection.3.5.2.1}%
+\contentsline {subsubsection}{\numberline {3.5.2.2}write\_log()}{13}{subsubsection.3.5.2.2}%
+\contentsline {section}{\numberline {3.6}Класс Opts}{13}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Подробное описание}{14}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Конструктор(ы)}{14}{subsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.2.1}Opts()}{14}{subsubsection.3.6.2.1}%
+\contentsline {subsection}{\numberline {3.6.3}Методы}{14}{subsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.3.1}Checkfiles()}{14}{subsubsection.3.6.3.1}%
+\contentsline {section}{\numberline {3.7}Класс server\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}error}{15}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Подробное описание}{16}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Конструктор(ы)}{16}{subsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.1}server\_error()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{16}{subsubsection.3.7.2.1}%
+\contentsline {subsubsection}{\numberline {3.7.2.2}server\_error()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{16}{subsubsection.3.7.2.2}%
+\contentsline {chapter}{{\cyrillictext \CYRP \cyrr \cyre \cyrd \cyrm \cyre \cyrt \cyrn \cyrery \cyrishrt \ \cyru \cyrk \cyra \cyrz \cyra \cyrt \cyre \cyrl \cyrsftsn }}{19}{section*.12}%

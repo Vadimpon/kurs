@@ -1,0 +1,85 @@
+\begin{theindex}
+
+  \item {accepting}
+    \subitem {Connect}, \hyperpage{9}
+  \item {Auth}, \hyperpage{5}
+    \subitem {Auth}, \hyperpage{5}
+    \subitem {CompareHashes}, \hyperpage{6}
+    \subitem {GenSALT}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Calc}, \hyperpage{7}
+    \subitem {mean}, \hyperpage{7}
+  \item {Checkfiles}
+    \subitem {Opts}, \hyperpage{14}
+  \item {CompareHashes}
+    \subitem {Auth}, \hyperpage{6}
+  \item {Connect}, \hyperpage{8}
+    \subitem {accepting}, \hyperpage{9}
+    \subitem {Connect}, \hyperpage{8}
+    \subitem {new\_bind}, \hyperpage{9}
+    \subitem {receiving}, \hyperpage{9}
+    \subitem {sending}, \hyperpage{10}
+    \subitem {start\_listening}, \hyperpage{10}
+
+  \indexspace
+
+  \item {Db}, \hyperpage{11}
+    \subitem {Db}, \hyperpage{11}
+    \subitem {IDcheck}, \hyperpage{12}
+
+  \indexspace
+
+  \item {Error}, \hyperpage{12}
+    \subitem {setLogname}, \hyperpage{13}
+    \subitem {write\_log}, \hyperpage{13}
+
+  \indexspace
+
+  \item {GenSALT}
+    \subitem {Auth}, \hyperpage{6}
+
+  \indexspace
+
+  \item {IDcheck}
+    \subitem {Db}, \hyperpage{12}
+
+  \indexspace
+
+  \item {mean}
+    \subitem {Calc}, \hyperpage{7}
+
+  \indexspace
+
+  \item {new\_bind}
+    \subitem {Connect}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Opts}, \hyperpage{13}
+    \subitem {Checkfiles}, \hyperpage{14}
+    \subitem {Opts}, \hyperpage{14}
+
+  \indexspace
+
+  \item {receiving}
+    \subitem {Connect}, \hyperpage{9}
+
+  \indexspace
+
+  \item {sending}
+    \subitem {Connect}, \hyperpage{10}
+  \item {server\_error}, \hyperpage{15}
+    \subitem {server\_error}, \hyperpage{16}
+  \item {setLogname}
+    \subitem {Error}, \hyperpage{13}
+  \item {start\_listening}
+    \subitem {Connect}, \hyperpage{10}
+
+  \indexspace
+
+  \item {write\_log}
+    \subitem {Error}, \hyperpage{13}
+
+\end{theindex}
